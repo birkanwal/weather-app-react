@@ -33,33 +33,21 @@ export default function Search() {
         <hr />
         <div className="row current-extra">
           <div className="col-3">
-            <div>
-              <i className="fas fa-wind"></i>
-            </div>
             <strong>Pressure</strong>
             <br />
             <span id="pressure">10</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-wind"></i>
-            </div>
             <strong>Wind</strong>
             <br />
             <span id="wind-speed">{response.data.wind.speed}m/s</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-temperature-high"></i>
-            </div>
             <strong>Max</strong>
             <br />
             <span id="max-temp">21</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-temperature-low"></i>
-            </div>
             <strong>Min</strong>
             <br />
             <span id="min-temp">10</span>
@@ -68,33 +56,21 @@ export default function Search() {
         <br />
         <div className="row current-extra">
           <div className="col-3">
-            <div>
-              <i className="fas fa-wind"></i>
-            </div>
             <strong>Sunrise</strong>
             <br />
             <span>Time</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-wind"></i>
-            </div>
             <strong>Sunset</strong>
             <br />
             <span>Time</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-tint"></i>
-            </div>
             <strong>Humidity</strong>
             <br />
             <span>{response.data.main.humidity}%</span>
           </div>
           <div className="col-3">
-            <div>
-              <i className="fas fa-wind"></i>
-            </div>
             <strong>Visibility</strong>
             <br />
             <span>km</span>
