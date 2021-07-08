@@ -142,7 +142,14 @@ export default function Search() {
       </form>
       <div>{message}</div>
       <p>
-        <a>Open Source Code</a> by Bir Kanwal
+        <a
+          href="https://github.com/birkanwal/weather-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open Source Code
+        </a>
+        by Bir Kanwal
       </p>
     </div>
   );
