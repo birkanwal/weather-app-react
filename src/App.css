@@ -4,36 +4,3 @@
   border: solid 1px;
   border-radius: 10px;
 }
-form {
-  padding: 10px;
-}
-
-img {
-  position: relative;
-  bottom: 13px;
-  width: 64px;
-  margin-right: 10px;
-}
-a {
-  text-decoration: none;
-}
-hr {
-  color: black;
-}
-.current {
-  text-align: center;
-  font-family: "Rajdhani";
-}
-.temperature {
-  font-size: 70px;
-  font-weight: 400;
-}
-.conversion-links {
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
-  bottom: 31px;
-}
-.current-extra {
-  font-size: 17px;
-}

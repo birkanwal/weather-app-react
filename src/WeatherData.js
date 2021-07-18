@@ -13,14 +13,12 @@ export default function WeatherData(props) {
         />
         <span className="temperature">{props.data.temperature}°C</span>
         <br />
-        <p className="feelslike">Feels Like {props.data.feelsLike}</p>
+        <p>Feels Like {props.data.feelsLike}</p>
         <span className="text-capitalize">{props.data.description}</span>
       </h1>
-      <h4>
-        <span>
-          <FormattedDate date={props.data.date} />
-        </span>
-      </h4>
+      <h3>
+        <FormattedDate date={props.data.date} />
+      </h3>
       <h1>
         {props.data.cityName}, {props.data.country}
       </h1>

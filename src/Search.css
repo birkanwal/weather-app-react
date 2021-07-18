@@ -1,0 +1,19 @@
+form {
+  padding: 10px;
+}
+
+img {
+  position: relative;
+  bottom: 13px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+.temperature {
+  font-size: 70px;
+  font-weight: 400;
+}
+.current-extra {
+  font-size: 17px;
+}
