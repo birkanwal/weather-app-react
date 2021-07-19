@@ -25,9 +25,9 @@ export default function WeatherData(props) {
       <hr />
       <div className="row current-extra">
         <div className="col-3">
-          <strong>Pressure</strong>
+          <strong>Humidity</strong>
           <br />
-          <span>{props.data.pressure}</span>
+          <span>{props.data.humidity}%</span>
         </div>
         <div className="col-3">
           <strong>Wind</strong>
@@ -62,10 +62,11 @@ export default function WeatherData(props) {
           </span>
         </div>
         <div className="col-3">
-          <strong>Humidity</strong>
+          <strong>Pressure</strong>
           <br />
-          <span>{props.data.humidity}%</span>
+          <span>{props.data.pressure}</span>
         </div>
+
         <div className="col-3">
           <strong>Visibility</strong>
           <br />

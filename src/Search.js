@@ -54,7 +54,7 @@ export default function Search(props) {
     return (
       <div>
         <form onSubmit={handleSubmit}>
-          <div className="row justify-content-around">
+          <div className="row">
             <div className="col-8">
               <input
                 type="text"
@@ -63,13 +63,12 @@ export default function Search(props) {
                 onChange={changeCity}
               />
             </div>
-            <div className="col-2">
-              <button type="button" className="btn btn-primary">
-                Current
-              </button>
-            </div>
-            <div className="col-2">
-              <input type="submit" value="Search" className="btn btn-primary" />
+            <div className="col-4">
+              <input
+                type="submit"
+                value="Search"
+                className="btn-primary form-control"
+              />
             </div>
           </div>
         </form>

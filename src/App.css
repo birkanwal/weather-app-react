@@ -1,6 +1,11 @@
 .container {
   padding: 15px;
   max-width: 500px;
-  border: solid 1px;
+  border: none 1px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   border-radius: 10px;
+  background: #fffdfb;
+}
+.footer {
+  margin-bottom: 0;
 }
