@@ -1,0 +1,10 @@
+.forecastDay {
+  font-weight: 800;
+}
+.minTemp {
+  margin-left: 4px;
+  opacity: 0.8;
+}
+.forecastIcon {
+  width: 70px;
+}
